@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sennacy</title>
+
+  <style>
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    font: inherit;
+    text-decoration: inherit;
+    text-align: inherit;
+    color: inherit;
+    background: transparent;
+    box-sizing: inherit;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ol, ul {
+    list-style: none;
+  }
+
+  body {
+    color: #222;
+    background: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+
+  main {
+    margin: auto;
+    max-width: 480px;
+    padding: 40px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  figure {
+    margin: 0 0 40px 0;
+  }
+
+  pre {
+    background: #222;
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+  }
+
+  </style>
+</head>
+<body>
+  <main>
+
+    <figure>
+      <img src="sennacy.jpg" width="450" height="600" alt="Sennacy">
+    </figure>
+
+    <pre>
+class Cat
+  attr_accessor :name, :color, :age
+
+  def initialize(name, color, age)
+    @name, @color, @age = name, color, age
+  end
+
+  def pur
+    "purrrrrr"
+  end
+end
+
+sennacy = Cat.new("Sennacy", "brown", 7)
+sennacy.pur
+    </pre>
+
+  </main>
+</body>
+</html>
